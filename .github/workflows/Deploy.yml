@@ -1,4 +1,4 @@
-name: Clone workflow
+name: Deploy workflow
 on:
   push:
     branches: [main]
