@@ -1,0 +1,19 @@
+name: Clone workflow
+on:
+  push:
+    branches: [main]
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: Ubuntu-latest
+    steps:
+      - name: testing
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd CMSC389T-Web-Template
+            git pull
