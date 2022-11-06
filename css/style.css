@@ -28,7 +28,7 @@ html, body {
 }
 
 .nav a:hover {
-    background-color: rgba(77, 166, 255, 0.3)
+    background-color: rgba(77, 255, 104, 0.3)
 }
 
 .main-nav {
@@ -51,8 +51,8 @@ html, body {
 }
 
 .header-strip {
-    background-color: #66b9ec;
-    color: #66b9ec;
+    background-color: rgba(77, 166, 255, 0.3);
+    color: rgba(77, 166, 255, 0.3);
     margin-bottom: 1em;
 }
 
