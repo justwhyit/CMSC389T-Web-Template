@@ -9,4 +9,4 @@ I Also included a profile photo and updated my name and the about me sections.
 
 ## TerpConnect Site
 
-https://terpconnect.umd.edu/jwyatt/repo_name/
+https://terpconnect.umd.edu/~jwyatt/index.html
