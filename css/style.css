@@ -113,8 +113,8 @@ html, body {
 }
 
 .main-footer {
-    background-color: red;
-    color: white;
+    background-color: #66b9ec;
+    color: #66b9ec;
     position: fixed;
     bottom: 0;
     width: 100%;
