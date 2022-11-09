@@ -16,4 +16,4 @@ jobs:
           script: |
             unalias rm
             cd ../pub
-            rm -rf CMSC389T-Web-Template
+            rm -rf *
