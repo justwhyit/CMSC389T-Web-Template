@@ -15,5 +15,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             unalias rm
+            rm -rf CMSC389T-Web-Template
             cd ../pub
             rm -rf *
